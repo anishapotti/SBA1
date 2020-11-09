@@ -22,7 +22,7 @@
 			String UserName=session.getAttribute("userName").toString();%>
 						<td><label>UserName</label></td>
 					<td><input type="text" name="UserName"
-						value="<%=UserName%>"  /></td>
+						value="<%=UserName%>" readonly /></td>
 				</tr>
 				<tr>
 					<td><label>Loan Name</label></td>
